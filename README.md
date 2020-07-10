@@ -9,7 +9,7 @@ Two deep learning models were used,namely:
 
 For the Model Training and Validation the fastai approach was used along with Keras(Tensorflow 2.0) and Pytorch. The development phase of the project is divided in 5 phases:
 1) Data Collection and Cleaning
-2) Exploratory Data Analysis and Preprocessing.
+2) [Exploratory Data Analysis and Preprocessing.](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Exploratory_Data_Analysis.ipynb)
 3) Sentiment Analysis and Sentiment Extractor models training and validation.
 4) Development of Web App based on Flask Rest API
 5) Deployment of WebApp on GCP(Google Cloud Platform)
