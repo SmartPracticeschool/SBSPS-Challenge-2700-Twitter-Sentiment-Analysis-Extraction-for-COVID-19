@@ -46,11 +46,12 @@ Transfer learning methods were implemented to carry out sentiment analysis. Sent
 After the completion of the sentiment analysis the data was further explored for the sentiment triggers in the tweets. HuggingFace transformers don't have a TFRobertaForQuestionAnswering, for this purpose, a TFRobertaModel was created to convert trained data into arrays that the Roberta model can interpret.While training the Sentiment Extractor model, 5 stratified KFolds were used in such a way that, in each fold the best model weights were saved and these weights were reloaded before carrying out testing and predictions. Roberta with CNN head was used for Twitter Sentiment Extraction. Thus after passing the data through this model we obtained a new column of the extracted text for the sentiments which was also used to plot certain graphs.
 
 ## Website UI Development
- The development of Website development is divided into four phases: 
-1)Public Sentiment Analysis 
-2)Real Time Sentiment Analysis
-3)Twitter Live Feed Analysis
-4)Live Case Count
+The Development of the website is divided into 4 phases:
+
+1) 
+2)
+3)
+4)
  ## Public Sentiment Analysis   
  To create a public sentiment analysis dashboard, tweets were scraped on the days when the Government of India made major decisions like the “lockdown”, “lockdown 2.0”,  “unlock1.0”, etc based on the hashtags used in the tweets, during a period of 3 months using the Tweepy API and GetOldTweets3 package. A new data set was created using these  tweets to create a public sentiment dashboard on the final web application which depicted categories like sentiment triggers, overall sentiment of the tweets using robust graphs like the funnel chart, word nexus plots, bigram frequency, box plots and Network Visualizations etc. 
 
