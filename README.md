@@ -1,7 +1,7 @@
 # SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19
 ## Twitter Sentiment Analysis &amp; Extraction for COVID-19
 <p align="center">
-  <img src="https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Twitterlogo.png"/>
+  <img src="https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/Twitterlogo.png"/>
 </p>
    
 Hello there! This is the Github repository for **CoVis** - The Visualisation Dashboard of COVID-19 Twitter Sentiment Analysis. This project is based on analyzing the sentiment of tweets which help in understanding the pulse of the nation towards the pandemic.
@@ -19,7 +19,7 @@ The Development of the website is divided into 4 phases:
 4) Live Case count
  ## Public Sentiment Analysis   
  To create a public sentiment analysis dashboard, tweets were scraped on the days when the Government of India made major decisions like the “lockdown”, “lockdown 2.0”,  “unlock1.0”, etc based on the hashtags used in the tweets, during a period of 3 months using the Tweepy API and GetOldTweets3 package. A new data set was created using these  tweets to create a public sentiment dashboard on the final web application which depicted categories like sentiment triggers, overall sentiment of the tweets using robust graphs like the funnel chart, word nexus plots, bigram frequency, box plots and Network Visualizations etc.
- ![Public Sentimental Analysis](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/public.gif)
+ ![Public Sentimental Analysis](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/public.gif)
 
  ## Real Time Sentiment Analysis
 Further creating a real-time sentiment analysis dashboard, COVID-19 tweets in India, the Tweepy API is used to scrape tweets from twitter on a real-time basis. 2,500 tweets are scraped everyday using this API, and their sentiment is then extracted using the developed language model. The analysed results are then displayed on the website using various graphs as in the case of public sentiment analysis dashboard. This dashboard updates itself every 24 hours.
