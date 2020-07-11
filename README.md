@@ -10,13 +10,8 @@ Two deep learning models were used,namely:
 1) RoBERTa - For Sentiment Analysis
 2) RoBERTa-CNN - For Sentiment Triggers Extraction.
 
-## Website UI Development
-The Development of the website is divided into 4 phases:
+## Website UI 
 
-1) Public Sentiment Analysis
-2) Real Time Sentiment Analysis
-3) Twitter Live Feed Analysis
-4) Live Case count
  ## Public Sentiment Analysis   
  To create a public sentiment analysis dashboard, tweets were scraped on the days when the Government of India made major decisions like the “lockdown”, “lockdown 2.0”,  “unlock1.0”, etc based on the hashtags used in the tweets, during a period of 3 months using the Tweepy API and GetOldTweets3 package. A new data set was created using these  tweets to create a public sentiment dashboard on the final web application which depicted categories like sentiment triggers, overall sentiment of the tweets using robust graphs like the funnel chart, word nexus plots, bigram frequency, box plots and Network Visualizations etc.
  ![Public Sentimental Analysis](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/public.gif)
@@ -37,7 +32,7 @@ For the Model Training and Validation the fastai approach was used along with Ke
 1) [Data Collection and Cleaning.](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Data_Creation_%26_Cleaning.ipynb)
 2) [Exploratory Data Analysis and Preprocessing.](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Exploratory_Data_Analysis.ipynb)
 3) [Roberta Model Training](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Roberta_Model_Training.ipynb),[Roberta CNN Sentiment Extractor](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Roberta_CNN.ipynb) & [Sentiment Analyzer.](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Sentiment_Analyzer.ipynb)
-4) Development of Web App based on Flask Rest API.
+4) Development of Web App based on Flask Socket.IO.
 5) Deployment of WebApp on GCP(Google Cloud Platform)
 
 ## Repository Structure & Files
@@ -53,6 +48,13 @@ The github repo is provided with a dockerfile and requirements.txt file to recre
 The dockerfile creates a virtual environment with required python version and packages for web app deployment. The required Python version is 3.6.X. All the dependencies required for the code in the repo can be installed using requirements.txt.
 
     pip install -q -r requirements.txt
+    
+The Development of the website is divided into 4 phases:
+
+1) Public Sentiment Analysis
+2) Real Time Sentiment Analysis
+3) Twitter Live Feed Analysis
+4) Live Case count    
     
 ## Notebooks
 
