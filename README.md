@@ -65,11 +65,16 @@ Initially, the IEEE Coronavirus (COVID-19) Tweets Data set was downloaded from t
  
 The data set thus obtained after cleaning  was then subjected to Exploratory Data Analysis (EDA) by plotting various types of graphs based on the sentiments and sentiment triggers, to gain valuable insights from the data. The frequency distribution graphs gives us a good perspective of the dataset and also gives us an insight into predicting the model's generalization capability. By plotting the graphs on the basis of sentiments and the sentiment triggers, it was clear that there was not much of a difference in the sentiment trend in tweets prevalent in India when compared to the rest of the world. From further analysis of the data it was evident that people mostly expressed neutral or positive about the pandemic, with only a very few people being negative towards it. This could be attributed to the fact that initially there was much chaos and panic around the pandemic, but over time, people have become less skeptic and more accustomed to the pandemic, which could have led to the trends being more deviated towards the positive and neutral end. The initial assumption about terms like positive and negative conveying the opposite meaning was opposed to the observed trends after the analysis and hence the assumption was dropped. Statistical analysis of the data set was also carried out to investigate further into the data. Feature selection and feature engineering were carried out on the data set for further analysis.
 
-## Roberta Model Training
+## Roberta Model Training & Sentiment Analyzer
 Transfer learning methods were implemented to carry out sentiment analysis. Sentiment Analysis of Tweets was carried out by integrating and using both the Huggingface Transformer Library and FastAI. Further Slanted Triangular Learning Rates, Discriminate Learning Rate and even Gradual Unfreezing were used, as a result of which, state-of-the-art results were obtained rapidly without even tuning the parameters. The Data obtained from the previous process was then tokenised and passed through the model for Sentiment analysis. This yielded a model with an accuracy of **97%** over the data set.The Tweepy API was used to scrape tweets in real time which were then passed through the model to obtain the sentiments.
 
 ## Roberta-CNN Sentiment Extractor
 After the completion of the sentiment analysis the data was further explored for the sentiment triggers in the tweets. HuggingFace transformers don't have a TFRobertaForQuestionAnswering, for this purpose, a TFRobertaModel was created to convert trained data into arrays that the Roberta model can interpret.While training the Sentiment Extractor model, 5 stratified KFolds were used in such a way that, in each fold the best model weights were saved and these weights were reloaded before carrying out testing and predictions. Roberta with CNN head was used for Twitter Sentiment Extraction. Thus after passing the data through this model we obtained a new column of the extracted text for the sentiments which was also used to plot certain graphs.
+
+## Flask App
+A flask app was used for setting up website routing. It is used to integrate the back end machine learning models with the dashboard. Then Socketio (web sockets) were used for dynamic implementations on the website, namely the Real-Time Plot Generators and Twitter live feed. The basic functionality of the Flask Socketio lies in running background threads when the client is not connected to the website thereby enabling dynamic plotting.
+
+
 
 
 
