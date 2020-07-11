@@ -31,6 +31,8 @@ In order to create the Twitter Live Feed Analysis Dashboard the website scrapes 
 This section of the dashboard is for displaying the live, state wise statistics of COVID-19 cases in India.
 
 
+## Development Phase
+
 For the Model Training and Validation the fastai approach was used along with Keras(Tensorflow 2.0) and Pytorch. The development phase of the project is divided in 5 phases:
 1) [Data Collection and Cleaning.](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Data_Creation_%26_Cleaning.ipynb)
 2) [Exploratory Data Analysis and Preprocessing.](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Exploratory_Data_Analysis.ipynb)
