@@ -81,15 +81,6 @@ After the completion of the sentiment analysis the data was further explored for
 ## Flask App
 A flask app was used for setting up website routing. It is used to integrate the back end machine learning models with the dashboard. Then Socketio (web sockets) were used for dynamic implementations on the website, namely the Real-Time Plot Generators and Twitter live feed. The basic functionality of the Flask Socketio lies in running background threads when the client is not connected to the website thereby enabling dynamic plotting.
 
-## Repository Structure & Files
-The structure of the repository is represented below:
-
-    |
-    |
-    |
-    |
-
-
 
 
 
