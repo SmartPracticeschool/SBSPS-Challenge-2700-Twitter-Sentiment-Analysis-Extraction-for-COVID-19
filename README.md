@@ -12,6 +12,8 @@ Two deep learning models were used,namely:
 
 ## Website UI
 
+![Web UI](https://youtu.be/S6CHgaLWbo8)
+
  ## Public Sentiment Analysis   
  To create a public sentiment analysis dashboard, tweets were scraped on the days when the Government of India made major decisions like the “lockdown”, “lockdown 2.0”,  “unlock1.0”, etc based on the hashtags used in the tweets, during a period of 3 months using the Tweepy API and GetOldTweets3 package. A new data set was created using these  tweets to create a public sentiment dashboard on the final web application which depicted categories like sentiment triggers, overall sentiment of the tweets using robust graphs like the funnel chart, word nexus plots, bigram frequency, box plots and Network Visualizations etc.
  ![Public Sentimental Analysis](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/public.gif)
