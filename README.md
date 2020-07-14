@@ -12,6 +12,8 @@ Two deep learning models were used,namely:
 
 ## Website UI
 
+### Click the Image to Watch a Demo of the CoVis Dashboard.
+
 [![Watch the video](https://img.youtube.com/vi/S6CHgaLWbo8/hqdefault.jpg)](https://youtu.be/S6CHgaLWbo8)
 
  ## Public Sentiment Analysis   
@@ -20,12 +22,18 @@ Two deep learning models were used,namely:
 
  ## Real Time Sentiment Analysis
 Further creating a real-time sentiment analysis dashboard, COVID-19 tweets in India, the Tweepy API is used to scrape tweets from twitter on a real-time basis. 2,500 tweets are scraped everyday using this API, and their sentiment is then extracted using the developed language model. The analysed results are then displayed on the website using various graphs as in the case of public sentiment analysis dashboard. This dashboard updates itself every 24 hours.
+![Real-Time Analysis](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/Realtime.png)
 
  ## Twitter Live Feed Analysis
 In order to create the Twitter Live Feed Analysis Dashboard the website scrapes tweets in real-time every 5 minutes, performs sentiment analysis of these tweets and displays a 3-D interactive, live, donut plot depicting the sentiment counts of the tweets. The analysed tweets are displayed on the page with the tweet text and the tweet sentiment. Also the real time tweets are displayed using the publish functionality of twitter.
+![Twitter Live Feed](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/Twitter%20Live%20Feed.png)
 
  ## Live Case Count 
 This section of the dashboard is for displaying the live, state wise statistics of COVID-19 cases in India.
+![Live Case Count](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/Live%20Case%20Count.png)
+
+## About Us
+![About Us](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/About%20Us.png)
 
 
 ## Development Phase
@@ -37,13 +45,6 @@ For the Model Training and Validation the fastai approach was used along with Ke
 4) Development of Web App based on Flask Socket.IO.
 5) Deployment of WebApp on GCP(Google Cloud Platform)
 
-## Repository Structure & Files
-The structure of the repository is represented below:
-
-    |
-    |
-    |
-    |
 ## Dockerfile & Requirements.txt
 
 The github repo is provided with a dockerfile and requirements.txt file to recreate the app deployed in the project. 
@@ -79,6 +80,14 @@ After the completion of the sentiment analysis the data was further explored for
 
 ## Flask App
 A flask app was used for setting up website routing. It is used to integrate the back end machine learning models with the dashboard. Then Socketio (web sockets) were used for dynamic implementations on the website, namely the Real-Time Plot Generators and Twitter live feed. The basic functionality of the Flask Socketio lies in running background threads when the client is not connected to the website thereby enabling dynamic plotting.
+
+## Repository Structure & Files
+The structure of the repository is represented below:
+
+    |
+    |
+    |
+    |
 
 
 
