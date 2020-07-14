@@ -81,13 +81,7 @@ After the completion of the sentiment analysis the data was further explored for
 ## Flask App
 A flask app was used for setting up website routing. It is used to integrate the back end machine learning models with the dashboard. Then Socketio (web sockets) were used for dynamic implementations on the website, namely the Real-Time Plot Generators and Twitter live feed. The basic functionality of the Flask Socketio lies in running background threads when the client is not connected to the website thereby enabling dynamic plotting.
 
-
-
-
-
-
-
-
-Thank you for reading! Hope you enjoyed it!
-Team Pandas Cloud Chronicles
-
+### Thanks for checking out the repo!
+<p align="center">
+  <img src="https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/PANDAS%20CLOUD%20CHRONICLES.jpg"   width="550" height="270">
+</p>
