@@ -12,6 +12,8 @@ Two deep learning models were used,namely:
 
 ## Project Presentation
 
+### Click Image to watch Project Presentation
+
 [![Watch the video](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/Presentation.png)](https://youtu.be/sAuOr24isMQ)
 
 ## Website UI
