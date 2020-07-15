@@ -10,6 +10,10 @@ Two deep learning models were used,namely:
 1) RoBERTa - For Sentiment Analysis
 2) RoBERTa-CNN - For Sentiment Triggers Extraction.
 
+## Project Presentation
+
+[![Watch the video](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/Presentation.png)](https://youtu.be/sAuOr24isMQ)
+
 ## Website UI
 
 ### Click the Image to Watch a Demo of the CoVis Dashboard.
@@ -83,5 +87,5 @@ A flask app was used for setting up website routing. It is used to integrate the
 
 ### Thanks for checking out the repo!
 <p align="center">
-  <img src="https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/PANDAS%20CLOUD%20CHRONICLES.jpg"   width="550" height="270">
+  <img src="https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Pictures/panda-mask.jpg">
 </p>
