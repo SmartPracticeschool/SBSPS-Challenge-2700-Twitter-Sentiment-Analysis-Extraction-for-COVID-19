@@ -50,12 +50,29 @@ For the Model Training and Validation the fastai approach was used along with Ke
 3) [Roberta Model Training](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Roberta_Model_Training.ipynb),[Roberta CNN Sentiment Extractor](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Roberta_CNN.ipynb) & [Sentiment Analyzer.](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Sentiment_Analyzer.ipynb)
 4) [Development of Web App based on Flask Socket.IO.](https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19/blob/master/Notebooks/Flask_APP.ipynb)
 
-## Dockerfile & Requirements.txt
+## Dockerfile & Running Project Locally
 
 The github repo is provided with a dockerfile and requirements.txt file to recreate the app deployed in the project. 
-The dockerfile creates a virtual environment with required python version and packages for web app deployment. The required Python version must be above 3.6.X. All the dependencies required for the code in the repo can be installed using requirements.txt.
+The dockerfile creates a virtual environment with required python version and packages for web app deployment. The required Python version must be above 3.6.X. All the dependencies required for the code in the repo can be installed using requirements.txt. Also the instructions for running the app locally are:
 
-    pip install -q -r requirements.txt
+1. Firstly, Start with cloning the github repo with the following command: 
+```
+git clone https://github.com/SmartPracticeschool/SBSPS-Challenge-2700-Twitter-Sentiment-Analysis-Extraction-for-COVID-19 
+```
+2. Secondly, follow the instructions and download required files given in Readme files of Tf-Roberta, Roberta_Model, R_CNN_weights under the APP/static folder in github repo.
+3. Then create a Twitter Developer Account or have access to Twitter API credentials so that you can plug them in accordingly into the main.py file for Twitter Scrapper functionality.
+4. Now change your working directory to the APP file so that we can start running the main.py file.
+5. Now, we need to start by downloading the requirements for the project:
+
+```
+pip install -q -r requirements.txt
+```
+6. Then Run the app with the following command:
+```
+python main.py
+```
+7. Now the main.py file should be running and the website should be live and can be accessible to local host, Enjoy!
+    
     
 ## Website Development
 
