@@ -61,9 +61,6 @@ from flask_restful import reqparse, abort, Api, Resource
 import json
 from flask import jsonify
 
-from waitress import serve
-import gunicorn
-
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba012'
 app.config['DEBUG'] = True
@@ -72,10 +69,10 @@ app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 socketio = SocketIO(app, async_mode=None, logger=True, engineio_logger=True)
 
 # Twitter credentials
-consumer_key = 'rm2bLDjA2BzljoA0GomL5o6W7'
-consumer_secret = 'xiFBG4VKWPuQts1v3uqAesllpDp36y44YkFnzBtezSbSYW9dBV'
-access_key = '935519854064418816-sOBxmFMaDygAx3FQXRBjH0drpZ2OXpB'
-access_secret = 'GbOTefzapdet9vpmR3H9OBRuJNJNs1cI4Adh5HrkIYPJz'
+consumer_key = 'Your key'
+consumer_secret = 'Consumer secret goes here'
+access_key = 'Your access key'
+access_secret = 'Your access secret'
 
 # Pass your twitter credentials to tweepy via its OAuthHandler
 auth = OAuthHandler(consumer_key, consumer_secret)
