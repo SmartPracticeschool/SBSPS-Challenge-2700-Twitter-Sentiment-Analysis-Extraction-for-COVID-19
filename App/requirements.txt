@@ -109,7 +109,7 @@ tornado==6.0.4
 tqdm
 transformers==2.1.1
 tweepy==3.8.0
-urllib3==1.25.9
+urllib3==1.26.5
 wasabi==0.2.2
 waitress
 Werkzeug==1.0.1
