@@ -61,7 +61,7 @@ Pillow
 plac==0.9.6
 plotly==4.8.2
 preshed==2.0.1
-protobuf==3.12.2
+protobuf==3.18.3
 psutil==5.7.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
